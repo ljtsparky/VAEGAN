@@ -6,8 +6,8 @@ import pandas as pd
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
-from utils.inception_score import get_inception_score
-from utils.tensorboard_logger import Logger
+# from utils.inception_score import get_inception_score
+# from utils.tensorboard_logger import Logger
 from itertools import chain
 from torchvision import utils
 latent_dim = 128
